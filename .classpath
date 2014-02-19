@@ -7,7 +7,6 @@
 	<classpathentry kind="lib" path="lib/junit.jar"/>
 	<classpathentry kind="lib" path="lib/packageManager.jar"/>
 	<classpathentry kind="lib" path="resources/packageManager-source.jar"/>
-	<classpathentry kind="lib" path="weka-src.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -22,6 +22,7 @@
 package weka.classifiers.rules;
 
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Vector;
 
 import weka.classifiers.AbstractClassifier;
@@ -460,6 +461,11 @@ public class PART
       return "No classifier built";
     }
     return "PART decision list\n------------------\n\n" + m_root.toString();
+  }
+  
+  public List<String> getDecisionListRules()
+  {
+	  return m_root.getRules();
   }
   
   /**

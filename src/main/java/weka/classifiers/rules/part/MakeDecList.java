@@ -22,7 +22,9 @@
 package weka.classifiers.rules.part;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Random;
 import java.util.Vector;
 
@@ -233,6 +235,23 @@ public class MakeDecList
     return text.toString();
   }
 
+  /**
+   * Returns the list of learnt rules.
+   */
+  public List<String> getRules()
+  {
+	  List<String> rules = new ArrayList<String>();
+	  for(int i=0; i < theRules.size(); i++) {
+		  String rule = ((ClassifierDecList)theRules.elementAt(i)).toString();
+		  rule = rule.replaceAll("\\s+"," ");
+		  rule = rule.replace(":", " THEN ");
+		  rule = "IF " + rule;
+		  rules.add(rule);
+	  }
+	  
+	  return rules;
+  }
+  
   /** 
    * Classifies an instance.
    *
