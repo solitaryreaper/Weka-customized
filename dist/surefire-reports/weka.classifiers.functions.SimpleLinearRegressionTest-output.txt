@@ -1,0 +1,4 @@
+----- no useful attribute found
+----- no useful attribute found
+Error handling instance weights (date class)!
+Warning: No reference available, creating.
