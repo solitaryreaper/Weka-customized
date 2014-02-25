@@ -23,13 +23,16 @@ package weka.classifiers.meta;
 
 import java.util.Arrays;
 import java.util.Enumeration;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 import java.util.Vector;
 import java.util.ArrayList;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.RandomizableParallelIteratedSingleClassifierEnhancer;
+import weka.classifiers.trees.RandomTree;
 import weka.core.AdditionalMeasureProducer;
 import weka.core.Aggregateable;
 import weka.core.Instance;
@@ -619,6 +622,23 @@ public class Bagging
     }
 
     return text.toString();
+  }
+  
+  /**
+   * Returns the set of unique rules corresponding to this random forest.
+   * @return
+   */
+  public List<String> getRules()
+  {
+	  Set<String> rules = new HashSet<String>();
+	  for(int i=0; i < m_Classifiers.length; i++) {
+		  // Hack : Instead of modifying Classifier interface which would have affected a lot of classes, just casted
+		  // it to the apt classifier.
+		  RandomTree randTree = (RandomTree)m_Classifiers[i];
+		  rules.addAll(randTree.getRules());
+	  }
+	  
+	  return new ArrayList<String>(rules);
   }
   
   /**

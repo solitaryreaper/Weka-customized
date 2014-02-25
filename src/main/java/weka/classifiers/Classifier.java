@@ -21,6 +21,8 @@
 
 package weka.classifiers;
 
+import java.util.List;
+
 import weka.core.Capabilities;
 import weka.core.Instance;
 import weka.core.Instances;

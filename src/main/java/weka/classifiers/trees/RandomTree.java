@@ -22,8 +22,10 @@
 package weka.classifiers.trees;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 import java.util.Vector;
@@ -661,6 +663,20 @@ public class RandomTree extends AbstractClassifier implements OptionHandler,
   }
 
   /**
+   * Returns the rules for this random tree.
+   * @return
+   */
+  public List<String> getRules()
+  {
+	  String prefix = "";
+	  List<String> ruleCollector = new ArrayList<String>();
+	  int depth = 0;
+	  m_Tree.getRules(depth, prefix, ruleCollector);
+	  
+	  return ruleCollector;
+  }
+  
+  /**
    * Returns graph describing the tree.
    * 
    * @return the graph describing the tree
@@ -984,6 +1000,49 @@ public class RandomTree extends AbstractClassifier implements OptionHandler,
       }
     }
 
+    /**
+     * Returns the rules for this tree.
+     * 
+     * @return
+     */
+    public void getRules(int depth, String prefix, List<String> ruleCollector)
+    {
+  	  boolean isStartOfRule = prefix.trim().isEmpty();
+  	  
+  	  // Prepend every rule with an IF identifier
+	  if(isStartOfRule) {
+		  prefix += "IF ";
+	  }
+	  
+	  try {
+		  // If leaf reached , add the current rule to list
+		  if(m_Attribute == -1) {
+			  String rule = prefix + " THEN " + leafString();
+			  rule = rule.replaceAll(":", "");
+			  ruleCollector.add(rule);
+		  }
+		  else if (m_Info.attribute(m_Attribute).isNumeric())  {
+			  String localPrefix = "";
+			  
+			  localPrefix = m_Info.attribute(m_Attribute).name() + " < " + Utils.doubleToString(m_SplitPoint, 2);
+			  if(!isStartOfRule) {
+				  localPrefix = " AND " + localPrefix;
+			  }			  
+			  m_Successors[0].getRules(depth + 1, prefix + localPrefix, ruleCollector);
+			  
+			  localPrefix = m_Info.attribute(m_Attribute).name() + " >= " + Utils.doubleToString(m_SplitPoint, 2);
+			  if(!isStartOfRule) {
+				  localPrefix = " AND " + localPrefix;
+			  }			  
+			  m_Successors[1].getRules(depth+1, prefix + localPrefix , ruleCollector);
+		  }
+	  }
+	  catch(Exception e) {
+	        e.printStackTrace();
+	  }
+
+    }
+    
     /**
      * Recursively backfits data into the tree.
      * 

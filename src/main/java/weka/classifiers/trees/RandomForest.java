@@ -22,6 +22,7 @@
 package weka.classifiers.trees;
 
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Vector;
 
 import weka.classifiers.AbstractClassifier;
@@ -625,6 +626,16 @@ public class RandomForest
       }
       return temp.toString();
     }
+  }
+  
+  /**
+   * Returns all the rules from the decision trees in the random forest.
+   * 
+   * @return
+   */
+  public List<String> getRandomForestRules()
+  {
+	  return m_bagger.getRules();
   }
   
   /**

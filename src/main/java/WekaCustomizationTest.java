@@ -1,5 +1,6 @@
 import weka.classifiers.rules.PART;
 import weka.classifiers.trees.J48;
+import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
@@ -7,8 +8,9 @@ public class WekaCustomizationTest {
 
 	public static void main(String[] args) throws Exception
 	{
-		testPART();
-		testJ48();
+		//testPART();
+		//testJ48();
+		testRandomForest();
 	}
 	
 	private static void testPART() throws Exception
@@ -29,6 +31,17 @@ public class WekaCustomizationTest {
 		dtree.buildClassifier(data);
 		System.out.println("\n\nJ48 rules ..");
 		for(String rule : dtree.getDecisionTreeRules()) {
+			System.out.println(rule);
+		}
+	}
+	
+	private static void testRandomForest() throws Exception
+	{
+		Instances data = getInstances();
+		RandomForest dtree = new RandomForest();
+		dtree.buildClassifier(data);
+		System.out.println("\n\nRandom Forest rules : ");
+		for(String rule : dtree.getRandomForestRules()) {
 			System.out.println(rule);
 		}
 	}
