@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.datagenerators.clusterers.SubspaceClusterDefinitionTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+=======
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

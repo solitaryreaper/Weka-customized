@@ -3,8 +3,11 @@ Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
+<<<<<<< HEAD
 Warning: No reference available, creating.
 Warning: discretizing data set
+=======
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
 Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
@@ -14,6 +17,21 @@ Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
+<<<<<<< HEAD
+Warning: filling in missing values in data set
+Warning: discretizing data set
+=======
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+=======
+Warning: discretizing data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
@@ -22,53 +40,29 @@ Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
+<<<<<<< HEAD
 Warning: filling in missing values in data set
 Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
+=======
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
+<<<<<<< HEAD
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
+=======
 Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
@@ -80,34 +74,104 @@ Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: filling in missing values in data set
-Warning: discretizing data set
-Warning: discretizing data set
+<<<<<<< HEAD
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
-Warning: discretizing data set
+=======
 Warning: filling in missing values in data set
 Warning: discretizing data set
-Warning: discretizing data set
 Warning: filling in missing values in data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: filling in missing values in data set
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+Warning: filling in missing values in data set
+Warning: discretizing data set
+=======
+Warning: discretizing data set
+Warning: filling in missing values in data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+=======
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+<<<<<<< HEAD
+Warning: filling in missing values in data set
+=======
+Warning: discretizing data set
+Warning: No reference available, creating.
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+=======
+Warning: filling in missing values in data set
+Warning: discretizing data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+=======
+Warning: filling in missing values in data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+=======
+Warning: discretizing data set
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
+Warning: filling in missing values in data set
+Warning: discretizing data set
+Warning: discretizing data set
+Warning: discretizing data set
+<<<<<<< HEAD
+=======
+Warning: filling in missing values in data set
+Warning: discretizing data set
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
 Warning: discretizing data set
 Warning: discretizing data set
 Warning: filling in missing values in data set

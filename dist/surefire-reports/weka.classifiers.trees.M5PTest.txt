@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.classifiers.trees.M5PTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.417 sec
+=======
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.912 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

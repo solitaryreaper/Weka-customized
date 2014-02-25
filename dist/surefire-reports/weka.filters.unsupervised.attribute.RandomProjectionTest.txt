@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.filters.unsupervised.attribute.RandomProjectionTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 sec
+=======
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.attributeSelection.WrapperSubsetEvalTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.032 sec
+=======
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.484 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

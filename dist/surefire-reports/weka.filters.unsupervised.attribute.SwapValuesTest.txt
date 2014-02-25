@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.filters.unsupervised.attribute.SwapValuesTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec
+=======
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

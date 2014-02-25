@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.filters.unsupervised.instance.SparseToNonSparseTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+=======
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

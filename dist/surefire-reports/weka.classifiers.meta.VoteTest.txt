@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: weka.classifiers.meta.VoteTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.733 sec
+=======
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.927 sec
+>>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
