@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.classifiers.misc.SerializedClassifierTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec
-=======
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

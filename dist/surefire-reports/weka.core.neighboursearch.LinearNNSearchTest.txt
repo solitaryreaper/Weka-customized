@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.core.neighboursearch.LinearNNSearchTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.228 sec
-=======
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.527 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

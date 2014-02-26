@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.classifiers.meta.RandomSubSpaceTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.616 sec
-=======
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.396 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

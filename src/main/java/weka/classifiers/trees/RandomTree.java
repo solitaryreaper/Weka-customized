@@ -1019,7 +1019,7 @@ public class RandomTree extends AbstractClassifier implements OptionHandler,
 		  if(m_Attribute == -1) {
 			  String rule = prefix + " THEN " + leafString();
 			  rule = rule.replaceAll(":", "");
-			  ruleCollector.add(rule);
+			  ruleCollector.add(rule.trim());
 		  }
 		  else if (m_Info.attribute(m_Attribute).isNumeric())  {
 			  String localPrefix = "";

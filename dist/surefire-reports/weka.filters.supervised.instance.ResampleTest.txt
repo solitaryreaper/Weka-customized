@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.filters.supervised.instance.ResampleTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
-=======
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

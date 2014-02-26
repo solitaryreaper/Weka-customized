@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.clusterers.FarthestFirstTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
-=======
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

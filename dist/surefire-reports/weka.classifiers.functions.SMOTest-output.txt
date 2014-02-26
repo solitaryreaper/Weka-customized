@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-Warning: No reference available, creating.
-Error handling instance weights (nominal class)!
-=======
-Error handling instance weights (nominal class)!
-Warning: No reference available, creating.
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

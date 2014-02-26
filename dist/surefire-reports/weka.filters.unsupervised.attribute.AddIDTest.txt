@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.filters.unsupervised.attribute.AddIDTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 sec
-=======
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

@@ -1,6 +1,0 @@
-[MappingInfo] WARNING: incoming nominal attribute Employment does not have the same number of values as the corresponding mining schema attribute.
-[MappingInfo] WARNING: incoming nominal attribute Education does not have the same number of values as the corresponding mining schema attribute.
-[MappingInfo] WARNING: incoming nominal attribute Marital does not have the same number of values as the corresponding mining schema attribute.
-[MappingInfo] WARNING: incoming nominal attribute Occupation does not have the same number of values as the corresponding mining schema attribute.
-[MappingInfo] WARNING: incoming nominal attribute Sex does not have the same number of values as the corresponding mining schema attribute.
-Warning: No reference available, creating.

@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.classifiers.functions.SGDTextTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 sec
-=======
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.474 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4

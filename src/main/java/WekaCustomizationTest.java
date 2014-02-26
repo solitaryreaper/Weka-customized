@@ -48,7 +48,7 @@ public class WekaCustomizationTest {
 	
 	private static Instances getInstances() throws Exception
 	{
-		DataSource trainDataSource = new DataSource("/home/excelsior/workspace/rule-generator/src/main/resources/data/Restaurant.arff");
+		DataSource trainDataSource = new DataSource("/afs/cs.wisc.edu/u/s/k/skprasad/RA/rule-generator/src/main/resources/data/Restaurant.arff");
 		Instances data = trainDataSource.getDataSet();
 		
 		if (data.classIndex() == -1)

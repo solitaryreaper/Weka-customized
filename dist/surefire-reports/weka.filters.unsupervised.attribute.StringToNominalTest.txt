@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: weka.filters.unsupervised.attribute.StringToNominalTest
--------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
-=======
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
->>>>>>> be8d023023e2b55052dc93e6657331a8de5759d4
