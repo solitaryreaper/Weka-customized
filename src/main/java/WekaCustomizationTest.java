@@ -41,12 +41,11 @@ public class WekaCustomizationTest {
 		Instances data = getInstances();
 		RandomForest dtree = new RandomForest();
 		dtree.buildClassifier(data);
-		/*
+		
 		System.out.println("\n\nRandom Forest rules : ");
 		for(String rule : dtree.getRandomForestRules()) {
 			System.out.println(rule);
 		}
-		*/
 		
 		for(Instance instance : data) {
 			double entropy = dtree.getVotingEntropyForInstance(instance);
@@ -59,7 +58,7 @@ public class WekaCustomizationTest {
 	
 	private static Instances getInstances() throws Exception
 	{
-		DataSource trainDataSource = new DataSource("/afs/cs.wisc.edu/u/s/k/skprasad/RA/rule-generator/src/main/resources/data/Restaurant.arff");
+		DataSource trainDataSource = new DataSource("/home/excelsior/workspace/rule-generator/src/main/resources/data/Restaurant.arff");
 		Instances data = trainDataSource.getDataSet();
 		
 		if (data.classIndex() == -1)
