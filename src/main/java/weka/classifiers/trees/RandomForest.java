@@ -26,6 +26,7 @@ import java.util.List;
 import java.util.Vector;
 
 import weka.classifiers.AbstractClassifier;
+import weka.classifiers.Classifier;
 import weka.classifiers.meta.Bagging;
 import weka.core.AdditionalMeasureProducer;
 import weka.core.Capabilities;
@@ -636,6 +637,37 @@ public class RandomForest
   public List<String> getRandomForestRules()
   {
 	  return m_bagger.getRules();
+  }
+  
+  /**
+   * Calculated the voting entropy for an instance using the current random forest.
+   * 
+   * The entropy is more if more constituent trees disagree on the output label and vice-versa.
+   * 
+   * @param instance		- Instance whose entropy is to be calculated.
+   * @return				- A value indicating the relative entropy of an instance between [0-1].
+   * @throws Exception
+   */
+  public double getVotingEntropyForInstance(Instance instance) throws Exception 
+  {
+	  double votes = 0.0, p0, p1;	  
+	  
+	  Classifier[] m_Classifiers = m_bagger.getBagOfClassifiers();
+	  int m_NumIterations = m_bagger.getNumIterations();
+	  
+	  for (int i = 0; i < m_NumIterations; i++) {
+		  double label = m_Classifiers[i].classifyInstance(instance);
+		  votes += label;
+	  }
+	  
+	  p1 = votes/m_NumIterations;	  
+	  p0 = 1.0 - p1;
+	  
+	  if (p0 == 0.0 || p1 == 0.0) {
+		  return 0.0;
+	  }
+	  	  	  
+	  return -(p0*Math.log(p0) + p1* Math.log(p1));	  
   }
   
   /**

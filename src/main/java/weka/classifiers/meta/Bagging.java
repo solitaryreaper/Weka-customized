@@ -747,4 +747,12 @@ public class Bagging
     
     m_classifiersCache = null;
   }
+  
+  /**
+   * Returns the list of all classifiers used for building the bagging learner.
+   */
+  public Classifier[] getBagOfClassifiers() {
+	  return m_Classifiers;
+  }
+  
 }

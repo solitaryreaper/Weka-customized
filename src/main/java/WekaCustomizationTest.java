@@ -1,6 +1,7 @@
 import weka.classifiers.rules.PART;
 import weka.classifiers.trees.J48;
 import weka.classifiers.trees.RandomForest;
+import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
@@ -40,10 +41,20 @@ public class WekaCustomizationTest {
 		Instances data = getInstances();
 		RandomForest dtree = new RandomForest();
 		dtree.buildClassifier(data);
+		/*
 		System.out.println("\n\nRandom Forest rules : ");
 		for(String rule : dtree.getRandomForestRules()) {
 			System.out.println(rule);
 		}
+		*/
+		
+		for(Instance instance : data) {
+			double entropy = dtree.getVotingEntropyForInstance(instance);
+			if(Double.compare(entropy, 0.0) != 0) {
+				System.out.println("Entropy : " + entropy);				
+			}
+		}
+		
 	}
 	
 	private static Instances getInstances() throws Exception
